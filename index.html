@@ -15,6 +15,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="For UK lenders and brokers: a weekly list of companies whose bridging charge at Companies House nears its end, linked to the property title.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -65,38 +69,68 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">Bridge Expiry</a></div>
-  <nav class="top"><a href="#what" data-ev="click_nav_what">What you get</a><a href="price.html" data-ev="click_nav_price">Price</a><a href="#example" data-ev="click_nav_example">Example</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">Bridge Expiry</a>
+  <nav><a href="#what" data-ev="click_nav_what">What you get</a><a href="price.html" data-ev="click_nav_price">Price</a><a href="#example" data-ev="click_nav_example">Example</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Find the borrowers whose bridging loan is about to run out</h1>
-    <p class="sub">For UK specialist lenders and commercial finance brokers: every week, the companies whose bridging charge is reaching its typical term, with the property title it sits on.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">I need this</a>
-    <p class="cta-note">Early access · No payment is taken on this page yet</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> For UK specialist lenders and commercial finance brokers</p>
+      <h1 class="rise" style="--i:1">Find the borrowers whose bridging loan is about to run out</h1>
+      <p class="rise" style="--i:2">For UK specialist lenders and commercial finance brokers: every week, the companies whose bridging charge is reaching its typical term, with the property title it sits on.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">I need this</a>
+      <p class="meta rise" style="--i:4">Early access · No payment is taken on this page yet</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" fill="#ffffff" rx="24" stroke="#dde2ea" stroke-width="3" /><text x="130" y="165" font-size="40" fill="#0a1524" font-weight="600">bridging</text><line x1="110" y1="210" x2="1090" y2="210" fill="none" stroke="#dde2ea" stroke-width="3" /><rect x="130" y="260" width="44" height="44" fill="#dfe8f7" rx="8" /><polyline points="142,282 150,292 166,272" fill="none" stroke="#12397a" stroke-width="4" /><text x="200" y="292" font-size="32" fill="#0a1524">Charges</text><rect x="130" y="360" width="44" height="44" fill="#dfe8f7" rx="8" /><polyline points="142,382 150,392 166,372" fill="none" stroke="#12397a" stroke-width="4" /><text x="200" y="392" font-size="32" fill="#0a1524">Weekly list</text><rect x="130" y="470" width="340" height="24" fill="#dde2ea" rx="8" /><rect x="130" y="540" width="260" height="24" fill="#b9c3d2" rx="8" /><rect x="700" y="250" width="380" height="420" fill="#dfe8f7" rx="20" /><text x="730" y="310" font-size="34" fill="#0a1524" font-weight="600">title</text><rect x="730" y="470" width="48" height="150" fill="#ffffff" rx="8" /><rect x="810" y="400" width="48" height="220" fill="#ffffff" rx="8" /><rect x="890" y="500" width="48" height="120" fill="#12397a" rx="8" /><rect x="970" y="440" width="48" height="180" fill="#ffffff" rx="8" /></svg></figure>
+    <dl class="facts">
+      <div><dt>For</dt><dd>UK specialist lenders</dd></div>
+      <div><dt>What</dt><dd>Bridging charge is reaching</dd></div>
+      <div><dt>How</dt><dd>Matched to its Land Registry</dd></div>
+      <div><dt>Access</dt><dd>Early access</dd></div>
+    </dl>
+  </section>
 
   <section id="what" data-view="features_view">
-    <h2>What you get</h2>
-    <div class="grid">
-      <div class="card"><b>Charges read</b><span>New bridging charges at Companies House, every week.</span><br><a class="btn" href="price.html" data-ev="feature_charges">I need this</a></div>
-      <div class="card"><b>Linked to title</b><span>Each charge matched to its Land Registry title.</span><br><a class="btn" href="price.html" data-ev="feature_title">I need this</a></div>
-      <div class="card"><b>Loan age</b><span>Months since the charge, so you see who is near term.</span><br><a class="btn" href="price.html" data-ev="feature_age">I need this</a></div>
-      <div class="card"><b>Weekly list</b><span>One list a week, filtered to your regions and size.</span><br><a class="btn" href="price.html" data-ev="feature_list">I need this</a></div>
+    <div class="stack"><h2>What you get</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="120" y="150" font-size="36" fill="#0a1524" font-weight="600">Charges</text><rect x="120" y="210" width="40" height="40" fill="#12397a" rx="8" /><polyline points="130,230 138,240 152,222" fill="none" stroke="#ffffff" stroke-width="4" /><rect x="190" y="218" width="280" height="22" fill="#dde2ea" rx="8" /><rect x="120" y="280" width="40" height="40" fill="#12397a" rx="8" /><polyline points="130,300 138,310 152,292" fill="none" stroke="#ffffff" stroke-width="4" /><rect x="190" y="288" width="240" height="22" fill="#b9c3d2" rx="8" /><rect x="120" y="350" width="40" height="40" fill="#12397a" rx="8" /><polyline points="130,370 138,380 152,362" fill="none" stroke="#ffffff" stroke-width="4" /><rect x="190" y="358" width="200" height="22" fill="#dde2ea" rx="8" /><rect x="120" y="420" width="40" height="40" fill="#dfe8f7" rx="8" /><rect x="190" y="428" width="160" height="22" fill="#b9c3d2" rx="8" /></svg></div>
+        <h3>Charges read</h3><p>New bridging charges at Companies House, every week.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_charges">I need this</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="60" y="110" width="250" height="380" fill="#ffffff" rx="16" stroke="#dde2ea" stroke-width="3" /><rect x="490" y="110" width="250" height="380" fill="#ffffff" rx="16" stroke="#dde2ea" stroke-width="3" /><text x="86" y="180" font-size="30" fill="#0a1524" font-weight="600">title</text><text x="516" y="180" font-size="30" fill="#0a1524" font-weight="600">Charge</text><rect x="90" y="240" width="160" height="16" fill="#dde2ea" rx="6" /><rect x="520" y="240" width="150" height="16" fill="#b9c3d2" rx="6" /><line x1="330" y1="248" x2="470" y2="248" fill="none" stroke="#dde2ea" stroke-width="4" /><rect x="90" y="310" width="160" height="16" fill="#dde2ea" rx="6" /><rect x="520" y="310" width="150" height="16" fill="#b9c3d2" rx="6" /><line x1="330" y1="318" x2="470" y2="318" fill="none" stroke="#12397a" stroke-width="4" /><rect x="90" y="380" width="160" height="16" fill="#dde2ea" rx="6" /><rect x="520" y="380" width="150" height="16" fill="#b9c3d2" rx="6" /><line x1="330" y1="388" x2="470" y2="388" fill="none" stroke="#dde2ea" stroke-width="4" /></svg></div>
+        <h3>Linked to title</h3><p>Each charge matched to its Land Registry title.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_title">I need this</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="120" y="150" font-size="36" fill="#0a1524" font-weight="600">Loan age</text><line x1="140" y1="470" x2="660" y2="470" fill="none" stroke="#b9c3d2" stroke-width="4" /><rect x="160" y="390" width="70" height="80" fill="#dfe8f7" rx="8" /><rect x="280" y="320" width="70" height="150" fill="#12397a" rx="8" /><rect x="400" y="260" width="70" height="210" fill="#dfe8f7" rx="8" /><rect x="520" y="350" width="70" height="120" fill="#dfe8f7" rx="8" /></svg></div>
+        <h3>Loan age</h3><p>Months since the charge, so you see who is near term.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_age">I need this</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="120" y="160" font-size="36" fill="#0a1524" font-weight="600">Weekly list</text><line x1="140" y1="280" x2="660" y2="280" fill="none" stroke="#dde2ea" stroke-width="6" /><rect x="130" y="250" width="110" height="60" fill="#ffffff" rx="28" stroke="#12397a" stroke-width="4" /><rect x="280" y="250" width="110" height="60" fill="#12397a" rx="28" /><rect x="430" y="250" width="110" height="60" fill="#ffffff" rx="28" stroke="#12397a" stroke-width="4" /><rect x="580" y="250" width="110" height="60" fill="#ffffff" rx="28" stroke="#12397a" stroke-width="4" /></svg></div>
+        <h3>Weekly list</h3><p>One list a week, filtered to your regions and size.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_list">I need this</a>
+      </article>
     </div>
   </section>
 
-  <section id="example" data-view="example_view">
-    <h2>Example (fictional data)</h2>
-    <p class="fine">A commercial broker in Manchester refinances bridging loans for small developers. Finding them meant reading Companies House filings by hand. Now every Monday the broker gets a list of companies in the North West whose bridging charge is 12 to 18 months old, with the address and title of the property, and calls the ones whose loan is about to expire.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">See the offer</a>
+  <section id="example" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Example</h2>
+      <p>A commercial broker in Manchester refinances bridging loans for small developers. Finding them meant reading Companies House filings by hand. Now every Monday the broker gets a list of companies in the North West whose bridging charge is 12 to 18 months old, with the address and title of the property, and calls the ones whose loan is about to expire.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">See the offer</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="200" y1="150" x2="1000" y2="150" fill="none" stroke="#dde2ea" stroke-width="6" /><circle cx="200" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><circle cx="600" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><circle cx="1000" cy="150" r="22" fill="#12397a" /><text x="200" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">Monday</text><text x="600" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">North West</text><text x="1000" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">expire</text><rect x="120" y="320" width="960" height="400" fill="#ffffff" rx="24" stroke="#dde2ea" stroke-width="3" /><text x="170" y="410" font-size="36" fill="#0a1524" font-weight="600">title</text><text x="170" y="640" font-size="32" fill="#566174">property</text><rect x="170" y="470" width="80" height="64" fill="#dfe8f7" rx="10" /><rect x="290" y="470" width="80" height="64" fill="#12397a" rx="10" /><rect x="410" y="470" width="80" height="64" fill="#dfe8f7" rx="10" /><rect x="530" y="470" width="80" height="64" fill="#dfe8f7" rx="10" /><rect x="650" y="470" width="80" height="64" fill="#12397a" rx="10" /><rect x="770" y="470" width="80" height="64" fill="#dfe8f7" rx="10" /></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>How it works</h2>
-    <p>A bridging loan usually runs for 12 to 24 months. When the term ends, the borrower must sell, refinance or extend, and that is exactly when a lender or broker can help.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>How it works</h2></div>
+    <div class="stack">
+      <p>A bridging loan usually runs for 12 to 24 months. When the term ends, the borrower must sell, refinance or extend, and that is exactly when a lender or broker can help.</p>
     <p>The facts are public, but scattered. Answers to common questions are in the <a href="#faq" data-ev="click_opis_faq">questions section</a>, and you can start <a href="#start" data-ev="click_opis_start">at the bottom of the page</a>.</p>
     <p>Bridge Expiry does one narrow job: it finds companies whose bridging charge is nearing the end of its usual term and tells you which property it is secured on.</p>
     <p>Every charge a company gives over its property is filed at Companies House with the date and the lender's name. The service reads these filings and keeps the ones made by bridging lenders.</p>
@@ -114,29 +148,33 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>You do not need to change your CRM; the spreadsheet fits the one you already use.</p>
     <p>To start, you only need to choose your regions and the loan age you want to see.</p>
     <p>Bridge Expiry works only with public records from Companies House and HM Land Registry.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Questions</h2>
-    <h3>Who is it for?</h3>
-    <p>UK specialist lenders, commercial finance brokers and list builders working with property borrowers.</p>
-    <h3>Where does the data come from?</h3>
-    <p>Public charge filings at Companies House matched to titles at HM Land Registry.</p>
-    <h3>Does it contact borrowers?</h3>
-    <p>No. It gives you the weekly list; you decide whom to approach.</p>
-    <h3>Can I use it now?</h3>
-    <p>Not yet. The service is being prepared, and we are checking whether UK lenders and brokers need it.</p>
+    <div class="stack"><h2>Questions</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>Who is it for?</h3><p>UK specialist lenders, commercial finance brokers and list builders working with property borrowers.</p></div>
+      <div class="split flip"><h3>Where does the data come from?</h3><p>Public charge filings at Companies House matched to titles at HM Land Registry.</p></div>
+      <div class="split flip"><h3>Does it contact borrowers?</h3><p>No. It gives you the weekly list; you decide whom to approach.</p></div>
+      <div class="split flip"><h3>Can I use it now?</h3><p>Not yet. The service is being prepared, and we are checking whether UK lenders and brokers need it.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Get started</h2>
-    <p><label>How many bridging cases do you handle a month<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— please choose —</option><option>1–5</option><option>6–20</option><option>More than 20</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Start</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Get started</h2>
+    </div>
+    <div class="tile stack">
+      <label>How many bridging cases do you handle a month<select data-ev-focus="form_start"><option value="">— please choose —</option><option>1–5</option><option>6–20</option><option>More than 20</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Start</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>Bridge Expiry</b></p>
   <p><a href="privacy.html" data-ev="click_legal_privacy">Privacy</a></p>
-  <p class="muted">Bridge Expiry compiles public records from Companies House and HM Land Registry; it does not give credit or financial advice.</p>
+  <p>Bridge Expiry compiles public records from Companies House and HM Land Registry; it does not give credit or financial advice.</p>
 </div></footer>
 
 </body>
